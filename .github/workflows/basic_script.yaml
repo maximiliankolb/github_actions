@@ -1,0 +1,20 @@
+---
+name: "Basic GHA"
+
+on:
+  push:
+    branches: ["main"]
+  pull_request:
+    branches: ["main"]
+
+jobs:
+  my_first_job:
+    runs-on: ubuntu-latest
+    steps:
+      - name: "Checkout git repository"
+        uses: actions/checkout@v3
+      - name: "Show date"
+        run: date --iso-8601=minutes
+      - name: "Check tree"
+        run: tree -a
+...
