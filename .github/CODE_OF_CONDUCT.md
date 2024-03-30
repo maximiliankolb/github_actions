@@ -1,4 +1,4 @@
-= Code of Conduct
+# Code of Conduct
 
 * Be friendly and patient.
 * Be welcoming.
