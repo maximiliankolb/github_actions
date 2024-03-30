@@ -1,4 +1,0 @@
-
-* [ ] I have followed best practices.
-* [ ] I have crafted great https://cbea.ms/git-commit/#seven-rules[commit messages].
-* [ ] Please tag the merge commit.
